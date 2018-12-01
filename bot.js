@@ -91,7 +91,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'Günaydın') {
+  if (msg.content.toLowerCase() === 'günaydın') {
     msg.reply('Günaydın Miyav :cat: ');
   }
 });
