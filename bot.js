@@ -84,6 +84,12 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'selam') {
+    msg.reply('Selam miyav');
+  }
+});
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
