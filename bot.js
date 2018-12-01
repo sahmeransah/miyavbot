@@ -80,16 +80,31 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm Miyav');
+    msg.reply('Aleyküm Miyav :cat: ');
   }
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selam') {
-    msg.reply('Selam miyav');
+    msg.reply('Selam Miyav :cat: ');
   }
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'Günaydın') {
+    msg.reply('Günaydın Miyav :cat: ');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sea') {
+    msg.reply('Aleyküm Miyav :cat: ');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'merhaba') {
+    msg.reply('Merhaba. Miyav :cat: ');
+  }
+});
 client.elevation = message => {
   if(!message.guild) {
 	return; }
