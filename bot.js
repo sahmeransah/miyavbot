@@ -107,7 +107,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === '-youtube') {
+  if (msg.content.toLowerCase() === 'youtube') {
     msg.reply('Mustafa Erkan Şahin- Bu havada miyavlanmaz: https://www.youtube.com/watch?v=GceUu0Zfbd0');
   }
 });
