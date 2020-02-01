@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('Bot sürümü: ' + ayarlar.surum + ' Yapımcı: Feanor');
+    .setDescription('Version: ' + ayarlar.surum + ' Developer: Feanor"VALORAIN"');
     return message.author.sendEmbed(pingozel)
 };
 
