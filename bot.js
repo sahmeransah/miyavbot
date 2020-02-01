@@ -80,42 +80,33 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm Miyav :cat: ');
+    msg.reply('As');
   }
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selam') {
-    msg.reply('Selam Miyav :cat: ');
+    msg.reply('Selam');
   }
 });
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'günaydın') {
-    msg.reply('Günaydın Miyav :cat: ');
+    msg.reply('Günaydın');
   }
 });
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sea') {
-    msg.reply('Aleyküm Miyav :cat: ');
+    msg.reply('Ase ');
   }
 });
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'merhaba') {
-    msg.reply('Merhaba. Miyav :cat: ');
+    msg.reply('Merhaba');
   }
 });
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'youtube') {
-    msg.reply('Mustafa Erkan Şahin- Bu havada miyavlanmaz: https://www.youtube.com/watch?v=GceUu0Zfbd0');
-  }
-});
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'aslanım benim') {
-    msg.reply('Miyav :cat: ');
-  }
-});
+
 
 
 client.elevation = message => {
