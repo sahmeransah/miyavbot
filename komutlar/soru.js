@@ -4,7 +4,7 @@ const cevaplar = [
     "evet",
     "hayır",
     "bos yapma.",
-    "olabilir"
+    "olabilir",
     "belki"
 ];
 
