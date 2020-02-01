@@ -3,8 +3,9 @@ const Discord = require('discord.js');
 const cevaplar = [
     "evet",
     "hayır",
-    "miyav",
-    "bos yapma"
+    "bos yapma.",
+    "olabilir"
+    "belki"
 ];
 
 exports.run = function(client, message, args) {
